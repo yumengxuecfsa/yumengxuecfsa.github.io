@@ -1,0 +1,594 @@
+<html>
+    <head>
+                <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+				<link rel="shortcut icon" href="favicon.ico">
+					
+        <title>论坛</title>
+
+
+
+    </head>
+  <body background="static/picture/bg-counter.jpg">
+
+        <style>
+    .width_5 {
+        width: 5px;
+    }
+    .width_300 {
+        width: 300px;
+
+    }
+    .width_800 {
+        width: 800px;
+    }
+    .width_468 {
+        width: 468px;
+    }
+    @media screen and (max-width: 800px) {
+        .width_800 {
+            width: 100%;
+        }
+
+        .width_468 {
+            width: 60%;
+        }
+
+        .width_300 {
+            width: 40%;
+        }
+
+    }
+
+</style>
+<style>
+
+</style>
+
+  <div class="header-pages">
+			<div class="navbar navbar-expand-md">
+				<div align="center">
+				<a href="posting.html"><img src="image/论坛.jpg" style="width:1000px;height:250px;"alt="妳好"></a>
+				
+				</div>
+					
+					<style>	#background{position:fixed;top:0;left:0'width:100%;height:100%;overflow:hidden;background-color:#211f1f;display:none\8;}
+#background .bg-photo{position:absolute;top:0;left:0;width:100%;height:100%;display:none;overflow:hidden;-webkit-background-size:cover!important;-moz-background-size:cover!important;-o-background-size:cover!important;background-size:cover!important;}
+#background .bg-phpto-1{background:url('static/picture/bg.jpg')no-repeat center center;}
+#background-ie{position:fixed;top:0;left:0'width:100%;height:100%;overflow:hidden;background-color:#211f1f}	</style>		<div id="background">
+						<div class="bg-photo bg-photo-1" style="display:block;"></div>
+					</div></a>
+					
+					
+				</div>
+				<br>
+	</div>
+
+        <div class="maincenter">
+            <table width="1000" border="0" align="center">
+                <tr>
+                    <td><a href='postbypolice.php?board=2&act=mainpage' target=_blank>发表新贴子</a>
+                        <a href="board.php?board=2&type=wonderful&page=1" target="_blank">精华区</a>
+                       
+                        <a href="newpost.php?board=2&page=1" target="_blank">近期新贴</a>
+                        <a id="searchlink" href=search.php?board=2>搜索</a>
+                                            </td>
+                                        <td align="right">
+                        共<font color="#FF0000">5437</font>页　当前为第<font color="#FF0000">1</font>页　转到第
+                                                <input name="page" type="text" class="input_text_veryshort" id="page" size="5" maxlength="10"/> 页
+                        <input name="pagetext" type="hidden" id="pagetext" value="board.php?board=2&type="/>
+                        <input name="Submit1" type="button" class="input1" id="Submit1" value="跳转" onClick="locapage();"/></td>
+                </tr>
+            </table>
+        </div>
+        <table id='msglist' width="1000" border="0" align="center" cellpadding="0" cellspacing="1"  bgcolor="#CCCCFF">
+            <tr align="center"  bgcolor="#FAF4FF">
+                <td width="32" height="32" valign="middle"><font size="-1">类别</font></td>
+                <td bgcolor="#FAF4FF"><font size="-1">主题</font></td>
+                <td width="110"><font size="-1">作者</font></td>
+                <td width="100"><font size="-1">发贴时间</font></td>
+                <td width="36"><font size="-1" title="热贴回复门槛338">回复</font></td>
+                <td width="100"><font size="-1" >回复时间</font></td>
+            </tr>
+                            <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_6308007">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>分享</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="6308007">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=6308007" target="_blank" title="最后更新：20-12-14 09:45">心理原因：为何受害者选择忍耐家暴</font>&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;暖宝</td>
+                    <td align="right" ><font size="-1">19-06-22 13:49</font></td>
+                    <td align="right"><font size=-1>19&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:45</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8872097">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>求助</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8872097">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8872097" target="_blank" title="最后更新：20-12-14 09:45">昨晚他喝过酒，回来大声吼我，还用力推我，这些算家暴吗？今早醒来说什么都不记得&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;==</td>
+                    <td align="right" ><font size="-1">20-12-01 07:58</font></td>
+                    <td align="right"><font size=-1>150&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:45</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8900177">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>分享</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8900177">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8900177" target="_blank" title="最后更新：20-12-14 09:44">家暴下的原生家庭对你造成什么影响？&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;彤彤杨</td>
+                    <td align="right" ><font size="-1">20-12-13 23:52</font></td>
+                    <td align="right"><font size=-1>43&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:44</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8900434">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>分享</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8900434">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8900434" target="_blank" title="最后更新：20-12-14 09:44">对于家庭暴力，你愿意出一份力吗？&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;佩斯</td>
+                    <td align="right" ><font size="-1">20-12-14 09:28</font></td>
+                    <td align="right"><font size=-1>15&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:44</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8874179">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>分享</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8874179">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8874179" target="_blank" title="最后更新：20-12-14 09:44">看看这些在微信耀武扬威的家暴男！&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;rwed</td>
+                    <td align="right" ><font size="-1">20-12-02 10:06</font></td>
+                    <td align="right"><font size=-1>213&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:44</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8900149">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>求助</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8900149">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8900149" target="_blank" title="最后更新：20-12-14 09:44">我会不会因为家暴有心理疾病了&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;麦麦</td>
+                    <td align="right" ><font size="-1">20-12-13 23:44</font></td>
+                    <td align="right"><font size=-1>45&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:44</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8900441">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>求助</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8900441">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8900441" target="_blank" title="最后更新：20-12-14 09:44">常年被家暴，妈妈终于下定决心离婚&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;boooooom</td>
+                    <td align="right" ><font size="-1">20-12-14 09:38</font></td>
+                    <td align="right"><font size=-1>9&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:44</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8900411">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>分享</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8900411">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8900411" target="_blank" title="最后更新：20-12-14 09:43">执业律师，可咨询，会耐心解答&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;Boris</td>
+                    <td align="right" ><font size="-1">20-12-14 09:06</font></td>
+                    <td align="right"><font size=-1>1&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:43</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8900452">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>分享</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8900452">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8900452" target="_blank" title="最后更新：20-12-14 09:43">家暴可以被原谅吗？&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;喝一杯青春</td>
+                    <td align="right" ><font size="-1">20-12-14 09:43</font></td>
+                    <td align="right"><font size=-1>0&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:43</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8900035">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>分享</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8900035">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8900035" target="_blank" title="最后更新：20-12-14 09:43">（转帖）被家暴，而不离婚不立刻逃走的女人，为什么？&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;bkopt</td>
+                    <td align="right" ><font size="-1">20-12-13 22:40</font></td>
+                    <td align="right"><font size=-1>188&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:43</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8898910">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>分享</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8898910">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8898910" target="_blank" title="最后更新：20-12-14 09:43">从小被家暴的男人，以后会家暴自己老婆吗&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;已注销</td>
+                    <td align="right" ><font size="-1">20-12-13 12:55</font></td>
+                    <td align="right"><font size=-1>210&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:43</font></td>
+                </tr>
+                                
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8900435">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>分享</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8900435">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8900435" target="_blank" title="最后更新：20-12-14 09:42">大家可以梳理总结一下面对家暴应如何自我保护的要点吗？做有准备的离开&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;种一株西红柿</td>
+                    <td align="right" ><font size="-1">20-12-14 09:28</font></td>
+                    <td align="right"><font size=-1>22&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:42</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8900431">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>分享</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8900431">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8900431" target="_blank" title="最后更新：20-12-14 09:42">“在暴力中成长的孩子”|关于青少年心理问题&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;为人人心理</td>
+                    <td align="right" ><font size="-1">20-12-14 09:26</font></td>
+                    <td align="right"><font size=-1>16&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:42</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8900160">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>求助</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8900160">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8900160" target="_blank" title="最后更新：20-12-14 09:42">第一次被打，一定要下决心离开他&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;泽芯</td>
+                    <td align="right" ><font size="-1">20-12-13 23:48</font></td>
+                    <td align="right"><font size=-1>66&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:42</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8900442">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>分享</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8900442">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8900442" target="_blank" title="最后更新：20-12-14 09:42">（转帖）家暴可能会引起抑郁，我们怎么应对抑郁&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;拉布拉多</td>
+                    <td align="right" ><font size="-1">20-12-14 09:38</font></td>
+                    <td align="right"><font size=-1>1&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:42</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8900404">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>分享</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8900404">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8900404" target="_blank" title="最后更新：20-12-14 09:40">（转帖）使用技巧：恋爱中识别潜在杀人犯&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;苜蓿园的二月兰</td>
+                    <td align="right" ><font size="-1">20-12-14 08:57</font></td>
+                    <td align="right"><font size=-1>65&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:40</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8899982">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>求助</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8899982">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8899982" target="_blank" title="最后更新：20-12-14 09:40">三年恋爱，目前大学，男朋友有时候开玩笑说把我杀了，他真会把我杀了吗&nbsp;
+                                    </a>
+                                    </a> </td></tr></table></td>
+                    <td>&nbsp;小咕咚</td>
+                    <td align="right" ><font size="-1">20-12-13 22:16</font></td>
+                    <td align="right"><font size=-1>585&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:40</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8894731">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>求助</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8894731">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8894731" target="_blank" title="最后更新：20-12-14 09:40">有人知道怎么送家暴父亲去看精神科吗&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;陈蛾子</td>
+                    <td align="right" ><font size="-1">20-12-11 11:03</font></td>
+                    <td align="right"><font size=-1>45&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:40</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8900439">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>求助</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8900439">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8900439" target="_blank" title="最后更新：20-12-14 09:40">前男友两年前故意伤害，手腕骨损伤成慢性病&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;FKkkk</td>
+                    <td align="right" ><font size="-1">20-12-14 09:35</font></td>
+                    <td align="right"><font size=-1>2&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:40</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8900385">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>分享</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8900385">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8900385" target="_blank" title="最后更新：20-12-14 09:40">请问有没有家暴互助群之类的&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;一轮玫瑰</td>
+                    <td align="right" ><font size="-1">20-12-14 08:37</font></td>
+                    <td align="right"><font size=-1>31&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:40</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8900419">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>求助</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8900419">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8900419" target="_blank" title="最后更新：20-12-14 09:40">谁能帮帮我&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;小丽</td>
+                    <td align="right" ><font size="-1">20-12-14 09:15</font></td>
+                    <td align="right"><font size=-1>13&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:40</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8900112">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>分享</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8900112">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8900112" target="_blank" title="最后更新：20-12-14 09:39">山东女子因不孕被虐致死？遭遇家暴要反抗&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;Young博士</td>
+                    <td align="right" ><font size="-1">20-12-13 23:23</font></td>
+                    <td align="right"><font size=-1>7&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:39</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8899877">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>分享</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8899877">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8899877" target="_blank" title="最后更新：20-12-14 09:39">【遭遇家暴一定要看】反击家暴的五大有效途径！&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;科普空间</td>
+                    <td align="right" ><font size="-1">20-12-13 21:22</font></td>
+                    <td align="right"><font size=-1>130&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:39</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8900312">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>求助</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8900312">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8900312" target="_blank" title="最后更新：20-12-14 09:38">孩子10个月，在一起10年被家暴，要不要离婚&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;兰州拉拉面</td>
+                    <td align="right" ><font size="-1">20-12-14 03:14</font></td>
+                    <td align="right"><font size=-1>81&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:38</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8601026">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>求助</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8601026">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8601026" target="_blank" title="最后更新：20-12-14 09:38">梦见妈妈被爸爸家暴，一下惊醒再也睡不着，如何摆脱这样的阴影&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;崒外</td>
+                    <td align="right" ><font size="-1">20-08-15 09:50</font></td>
+                    <td align="right"><font size=-1>130&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:38</font></td>
+                </tr>
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8154903">
+                  
+                   
+                                <tr valign="middle" bgcolor="#FAF4FF" class="boardlist" id="boardtr_8895906">
+                    <td height="32" valign="middle">
+                        <table width="32" border="0" cellspacing="2" cellpadding="0">
+                            <tr><td align="center"><font size=-1 color=#CA8EFF>求助</font></td></tr>
+                        </table>
+                    </td>
+                    <td>
+                        <table width="400" border="0" cellspacing="5" cellpadding="0" style="table-layout:fixed;word-wrap:break-word;">
+                            <tr>
+                                <td class="subjecttd" rel="8895906">
+                                    <a  href="showmsg.php?board=2&boardpagemsg=6&id=8895906" target="_blank" title="最后更新：20-12-14 09:38">求助，吵架摔东西是家暴的前兆吗？&nbsp;
+                                    </a>
+                                     </td></tr></table></td>
+                    <td>&nbsp;睁眼看世界</td>
+                    <td align="right" ><font size="-1">20-12-11 21:11</font></td>
+                    <td align="right"><font size=-1>112&nbsp;</font></td>
+                    <td align="right" ><font size=-1>20-12-14 09:38</font></td>
+                
+                        </table>
+        <table width="1000" border="0" align="center">
+            <tr>
+                                               
+                <td><div align="right">
+
+                        <a  href=board.php?board=2&type=&page=1>首页</a>
+                        <a
+                         href=board.php?board=2&type=&page=5                            >上一页</a>
+                        <a
+                         href=board.php?board=2&type=&page=7                            >下一页</a>
+                        <a  href=board.php?board=2&type=&page=171016>末页</a>
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <br/>
+                <table width=1000 border=0 align="center" cellpadding="1" cellspacing="0" >
+            <tr>
+                
+                <td align=right id="bottom_nav"><a href="index.html" target="_blank">返回主页</a>			</td>
+            </tr>
+        </table>
+                <br/>        
+        
+
+
+
+</script>
+<script src="//w.cnzz.com/c.php?id=30012213" language="JavaScript"></script>            </body>
+</html>
