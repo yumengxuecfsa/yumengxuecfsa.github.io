@@ -1,0 +1,7 @@
+User-agent: *
+
+Disallow: 
+
+Disallow: file:///F:/www/forum.html
+
+Sitemap: file:///F:/www/sitemap.html
